@@ -1,0 +1,4 @@
+Test for a Twitter4J bug where a Trends object from getLocationTrends
+can be deserialized using DataObjectFactory.getRawJSON(object) but
+the expected operation fails when using one of the Trends objects
+from a getWeeklyTrends() call.
