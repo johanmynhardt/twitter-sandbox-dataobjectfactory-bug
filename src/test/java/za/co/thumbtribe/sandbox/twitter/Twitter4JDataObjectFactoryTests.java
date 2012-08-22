@@ -23,7 +23,7 @@ public class Twitter4JDataObjectFactoryTests {
 
 	@Before
 	public void init() {
-		Configuration configuration = new ConfigurationBuilder().setJSONStoreEnabled(true).setGZIPEnabled(true).build();
+		Configuration configuration = new ConfigurationBuilder().setJSONStoreEnabled(true).build();
 		twitter = new TwitterFactory(configuration).getInstance();
 	}
 
